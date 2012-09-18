@@ -30,7 +30,7 @@
 //  Creation date : 28/06/2010
 //  Last modification : 05/07/2010
 
-#include "stdafx.h"
+// #include "stdafx.h"
 #include "BaseFuntionsFile.h"
 
 

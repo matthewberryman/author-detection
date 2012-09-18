@@ -1,0 +1,268 @@
+make: Circular preprocessing <- preprocessing dependency dropped.
+c++ Base2.cpp main.cpp
+Base2.cpp:179:40: warning: comparison of unsigned expression >= 0 is always true [-Wtautological-compare]
+  if (s != NULL && ct != NULL && start >= 0 && lenght > 0)
+                                 ~~~~~ ^  ~
+1 warning generated.
+In file included from main.cpp:34:
+In file included from ./BaseFuntionsFile.h:27:
+./Word.h:32:25: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+            m_Fichier = "";
+                        ^
+In file included from main.cpp:34:
+./BaseFuntionsFile.h:206:22: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    char *tab[24] = {"\n", " ", ",", ".", ";", ":", " :", " ?",
+                     ^
+./BaseFuntionsFile.h:206:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    char *tab[24] = {"\n", " ", ",", ".", ";", ":", " :", " ?",
+                           ^
+./BaseFuntionsFile.h:206:33: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    char *tab[24] = {"\n", " ", ",", ".", ";", ":", " :", " ?",
+                                ^
+./BaseFuntionsFile.h:206:38: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    char *tab[24] = {"\n", " ", ",", ".", ";", ":", " :", " ?",
+                                     ^
+./BaseFuntionsFile.h:206:43: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    char *tab[24] = {"\n", " ", ",", ".", ";", ":", " :", " ?",
+                                          ^
+./BaseFuntionsFile.h:206:48: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    char *tab[24] = {"\n", " ", ",", ".", ";", ":", " :", " ?",
+                                               ^
+./BaseFuntionsFile.h:206:53: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    char *tab[24] = {"\n", " ", ",", ".", ";", ":", " :", " ?",
+                                                    ^
+./BaseFuntionsFile.h:206:59: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    char *tab[24] = {"\n", " ", ",", ".", ";", ":", " :", " ?",
+                                                          ^
+./BaseFuntionsFile.h:207:21: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+                    " !", "( ", "(", ")", " )", "\"", "_", "-",
+                    ^
+./BaseFuntionsFile.h:207:27: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+                    " !", "( ", "(", ")", " )", "\"", "_", "-",
+                          ^
+./BaseFuntionsFile.h:207:33: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+                    " !", "( ", "(", ")", " )", "\"", "_", "-",
+                                ^
+./BaseFuntionsFile.h:207:38: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+                    " !", "( ", "(", ")", " )", "\"", "_", "-",
+                                     ^
+./BaseFuntionsFile.h:207:43: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+                    " !", "( ", "(", ")", " )", "\"", "_", "-",
+                                          ^
+./BaseFuntionsFile.h:207:49: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+                    " !", "( ", "(", ")", " )", "\"", "_", "-",
+                                                ^
+./BaseFuntionsFile.h:207:55: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+                    " !", "( ", "(", ")", " )", "\"", "_", "-",
+                                                      ^
+./BaseFuntionsFile.h:207:60: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+                    " !", "( ", "(", ")", " )", "\"", "_", "-",
+                                                           ^
+./BaseFuntionsFile.h:208:21: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+                    "#", "@", "%", "$", "&", "*", "+", "="};
+                    ^
+./BaseFuntionsFile.h:208:26: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+                    "#", "@", "%", "$", "&", "*", "+", "="};
+                         ^
+./BaseFuntionsFile.h:208:31: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+                    "#", "@", "%", "$", "&", "*", "+", "="};
+                              ^
+./BaseFuntionsFile.h:208:36: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+                    "#", "@", "%", "$", "&", "*", "+", "="};
+                                   ^
+./BaseFuntionsFile.h:208:41: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+                    "#", "@", "%", "$", "&", "*", "+", "="};
+                                        ^
+./BaseFuntionsFile.h:208:46: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+                    "#", "@", "%", "$", "&", "*", "+", "="};
+                                             ^
+./BaseFuntionsFile.h:208:51: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+                    "#", "@", "%", "$", "&", "*", "+", "="};
+                                                  ^
+./BaseFuntionsFile.h:208:56: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+                    "#", "@", "%", "$", "&", "*", "+", "="};
+                                                       ^
+./BaseFuntionsFile.h:279:29: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    str2 = str_join(chaine2," ");
+                            ^
+./BaseFuntionsFile.h:280:36: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    NombreDeRecurences = FirstWord("FileOut.txt", str2);
+                                   ^
+./BaseFuntionsFile.h:282:21: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    str2 = str_join(" ", chaine2);
+                    ^
+./BaseFuntionsFile.h:283:42: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    NombreDeRecurences += CountAllString("FileOut.txt", str2);
+                                         ^
+./BaseFuntionsFile.h:285:30: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    str2 = str_join(chaine2, "\n");
+                             ^
+./BaseFuntionsFile.h:286:42: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    NombreDeRecurences += CountAllString("FileOut.txt", str2);
+                                         ^
+./BaseFuntionsFile.h:288:21: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    str2 = str_join("\n", chaine2);
+                    ^
+./BaseFuntionsFile.h:289:42: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    NombreDeRecurences += CountAllString("FileOut.txt", str2);
+                                         ^
+./BaseFuntionsFile.h:296:21: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    str2 = str_join(" ", chaine2);
+                    ^
+./BaseFuntionsFile.h:297:42: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    NombreDeRecurences += CountAllString("FileOut.txt", str2);
+                                         ^
+./BaseFuntionsFile.h:299:30: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    str2 = str_join(chaine2, "\n");
+                             ^
+./BaseFuntionsFile.h:300:42: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    NombreDeRecurences += CountAllString("FileOut.txt", str2);
+                                         ^
+./BaseFuntionsFile.h:302:21: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    str2 = str_join("\n", chaine2);
+                    ^
+./BaseFuntionsFile.h:303:42: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    NombreDeRecurences += CountAllString("FileOut.txt", str2);
+                                         ^
+./BaseFuntionsFile.h:328:33: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+        Word *p_Word = new Word(" ",0);
+                                ^
+./BaseFuntionsFile.h:436:32: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+       Word *p_Word = new Word(" ",0);
+                               ^
+./BaseFuntionsFile.h:550:40: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+                Word *tempo = new Word(" ",0);
+                                       ^
+./BaseFuntionsFile.h:577:48: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+                        Word *tempo = new Word(" ",0);
+                                               ^
+./BaseFuntionsFile.h:739:57: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+        FinalDblArray[indiceASup1][indiceASup2].m_Nom = " ";
+                                                        ^
+./BaseFuntionsFile.h:819:16: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    char *aa = " on : ";
+               ^
+./BaseFuntionsFile.h:820:16: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    char *bb = "\t";
+               ^
+./BaseFuntionsFile.h:821:16: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    char *cc = " words or ";
+               ^
+./BaseFuntionsFile.h:1030:69: warning: multi-character character constant [-Wmultichar]
+                (tmp == '&') | (tmp == '*') | (tmp == '+') |(tmp == '``')|
+                                                                    ^
+./BaseFuntionsFile.h:1146:72: warning: multi-character character constant [-Wmultichar]
+                (tmp2 == '&') | (tmp2 == '*') | (tmp2 == '+') |(tmp == '``')|
+                                                                       ^
+./BaseFuntionsFile.h:1185:32: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+       Word *p_Word = new Word(" ",0);
+                               ^
+./BaseFuntionsFile.h:1318:4: warning: control may reach end of non-void function [-Wreturn-type]
+          }
+          ^
+main.cpp:75:1: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"LU01.txt","LU02.txt","LU03.txt","LU04.txt","MK01.txt","MK02.txt","MK03.txt","MK04.txt",
+^
+main.cpp:75:12: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"LU01.txt","LU02.txt","LU03.txt","LU04.txt","MK01.txt","MK02.txt","MK03.txt","MK04.txt",
+           ^
+main.cpp:75:23: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"LU01.txt","LU02.txt","LU03.txt","LU04.txt","MK01.txt","MK02.txt","MK03.txt","MK04.txt",
+                      ^
+main.cpp:75:34: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"LU01.txt","LU02.txt","LU03.txt","LU04.txt","MK01.txt","MK02.txt","MK03.txt","MK04.txt",
+                                 ^
+main.cpp:75:45: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"LU01.txt","LU02.txt","LU03.txt","LU04.txt","MK01.txt","MK02.txt","MK03.txt","MK04.txt",
+                                            ^
+main.cpp:75:56: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"LU01.txt","LU02.txt","LU03.txt","LU04.txt","MK01.txt","MK02.txt","MK03.txt","MK04.txt",
+                                                       ^
+main.cpp:75:67: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"LU01.txt","LU02.txt","LU03.txt","LU04.txt","MK01.txt","MK02.txt","MK03.txt","MK04.txt",
+                                                                  ^
+main.cpp:75:78: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"LU01.txt","LU02.txt","LU03.txt","LU04.txt","MK01.txt","MK02.txt","MK03.txt","MK04.txt",
+                                                                             ^
+main.cpp:76:1: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"MT01.txt","MT02.txt","MT03.txt","MT04.txt","JO01.txt","JO02.txt","JO03.txt","JO04.txt",
+^
+main.cpp:76:12: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"MT01.txt","MT02.txt","MT03.txt","MT04.txt","JO01.txt","JO02.txt","JO03.txt","JO04.txt",
+           ^
+main.cpp:76:23: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"MT01.txt","MT02.txt","MT03.txt","MT04.txt","JO01.txt","JO02.txt","JO03.txt","JO04.txt",
+                      ^
+main.cpp:76:34: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"MT01.txt","MT02.txt","MT03.txt","MT04.txt","JO01.txt","JO02.txt","JO03.txt","JO04.txt",
+                                 ^
+main.cpp:76:45: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"MT01.txt","MT02.txt","MT03.txt","MT04.txt","JO01.txt","JO02.txt","JO03.txt","JO04.txt",
+                                            ^
+main.cpp:76:56: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"MT01.txt","MT02.txt","MT03.txt","MT04.txt","JO01.txt","JO02.txt","JO03.txt","JO04.txt",
+                                                       ^
+main.cpp:76:67: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"MT01.txt","MT02.txt","MT03.txt","MT04.txt","JO01.txt","JO02.txt","JO03.txt","JO04.txt",
+                                                                  ^
+main.cpp:76:78: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"MT01.txt","MT02.txt","MT03.txt","MT04.txt","JO01.txt","JO02.txt","JO03.txt","JO04.txt",
+                                                                             ^
+main.cpp:77:1: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"HEBR.txt","PA01.txt","PA02.txt","PA03.txt","PA04.txt","CL01.txt","CL02.txt","CL03.txt",
+^
+main.cpp:77:12: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"HEBR.txt","PA01.txt","PA02.txt","PA03.txt","PA04.txt","CL01.txt","CL02.txt","CL03.txt",
+           ^
+main.cpp:77:23: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"HEBR.txt","PA01.txt","PA02.txt","PA03.txt","PA04.txt","CL01.txt","CL02.txt","CL03.txt",
+                      ^
+main.cpp:77:34: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"HEBR.txt","PA01.txt","PA02.txt","PA03.txt","PA04.txt","CL01.txt","CL02.txt","CL03.txt",
+                                 ^
+main.cpp:77:45: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"HEBR.txt","PA01.txt","PA02.txt","PA03.txt","PA04.txt","CL01.txt","CL02.txt","CL03.txt",
+                                            ^
+main.cpp:77:56: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"HEBR.txt","PA01.txt","PA02.txt","PA03.txt","PA04.txt","CL01.txt","CL02.txt","CL03.txt",
+                                                       ^
+main.cpp:77:67: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"HEBR.txt","PA01.txt","PA02.txt","PA03.txt","PA04.txt","CL01.txt","CL02.txt","CL03.txt",
+                                                                  ^
+main.cpp:77:78: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"HEBR.txt","PA01.txt","PA02.txt","PA03.txt","PA04.txt","CL01.txt","CL02.txt","CL03.txt",
+                                                                             ^
+main.cpp:78:1: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"CL04.txt","IG01.txt","IG02.txt","IG03.txt","IG04.txt","BA01.txt","BA02.txt","BA03.txt","BA04.txt"
+^
+main.cpp:78:12: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"CL04.txt","IG01.txt","IG02.txt","IG03.txt","IG04.txt","BA01.txt","BA02.txt","BA03.txt","BA04.txt"
+           ^
+main.cpp:78:23: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"CL04.txt","IG01.txt","IG02.txt","IG03.txt","IG04.txt","BA01.txt","BA02.txt","BA03.txt","BA04.txt"
+                      ^
+main.cpp:78:34: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"CL04.txt","IG01.txt","IG02.txt","IG03.txt","IG04.txt","BA01.txt","BA02.txt","BA03.txt","BA04.txt"
+                                 ^
+main.cpp:78:45: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"CL04.txt","IG01.txt","IG02.txt","IG03.txt","IG04.txt","BA01.txt","BA02.txt","BA03.txt","BA04.txt"
+                                            ^
+main.cpp:78:56: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"CL04.txt","IG01.txt","IG02.txt","IG03.txt","IG04.txt","BA01.txt","BA02.txt","BA03.txt","BA04.txt"
+                                                       ^
+main.cpp:78:67: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"CL04.txt","IG01.txt","IG02.txt","IG03.txt","IG04.txt","BA01.txt","BA02.txt","BA03.txt","BA04.txt"
+                                                                  ^
+main.cpp:78:78: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"CL04.txt","IG01.txt","IG02.txt","IG03.txt","IG04.txt","BA01.txt","BA02.txt","BA03.txt","BA04.txt"
+                                                                             ^
+main.cpp:78:89: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+"CL04.txt","IG01.txt","IG02.txt","IG03.txt","IG04.txt","BA01.txt","BA02.txt","BA03.txt","BA04.txt"
+                                                                                        ^
+main.cpp:173:17: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+   WriteNewFile("FileOut.txt", NbString, tab);
+                ^
+main.cpp:174:36: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+    Word *FinalTab = FillArrayStr1("FileOut.txt", tableau, &NbString, &nbFichier);
+                                   ^
+86 warnings generated.
